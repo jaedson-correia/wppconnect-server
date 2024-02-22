@@ -1,5 +1,5 @@
 export default {
-  secretKey: 'THISISMYSECURETOKEN',
+  secretKey: '7NXGHncfZGLwMfC173zFxADwq03AlYYj', // regen
   host: 'http://localhost',
   port: '21465',
   deviceName: 'WppConnect',
@@ -9,7 +9,7 @@ export default {
   maxListeners: 15,
   customUserDataDir: './userDataDir/',
   webhook: {
-    url: null,
+    url: 'http://dart-server:8080/api/webhooks',
     autoDownload: true,
     uploadS3: false,
     readMessage: true,
